@@ -1,6 +1,6 @@
 # HIPPOCAMPAL VOLUMETRIC QUANTIFICATION OF ALZHEIMER'S PROGRESSION
 
-## Segmentation using the UNET and RecursiveUNet architecture
+## Segmentation using the UNET, DEEPLABv3+ and RecursiveUNet architecture
 
 ### Aim
 This algorithm is intended to help diagnose and track any progression of Alzheimer's disease and forms of dementia in patients displaying symptoms of disease including short and long term memory loss issues as well. This quantification will help in disease management.

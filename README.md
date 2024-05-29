@@ -70,8 +70,6 @@ Informatics Technology Initiative (NIfTI) files, with one file per image volume,
 ![Output Sample](https://github.com/Iaryan-21/Hippocampus_Volumetric_Analysis/blob/main/output/DeepLabV3%2B/train_epoch_58_batch_20.png)
 ### Results UNET
 
-Here are the key results from the analysis:
-
 - **Filename**: hippocampus_328.nii
 - **Dice Coefficient**: 0.8700673724735323
 - **Jaccard Index**: 0.7700170357751278
@@ -97,11 +95,11 @@ Configuration:
 - **Dice Coeffcicient**: 0.8135922330097087,
 - **Jaccard Mean**: 0.6857610474631751
 
-Overall Statistics
+Overall Statistics:
 - **mean_dice**: 0.8135922330097087,
 - **mean_jaccard**: 0.6857610474631751
   
-  Configuration
+Configuration:
 - **Model Name**: "DeepLabV3+",
 - **Root Directory**: `C:\\Users\\aryan\\OneDrive\\Desktop\\Hypocampal Volume Quantification of Alzheimers\\model\\data\\`
 - **Number of Epochs**: 100,

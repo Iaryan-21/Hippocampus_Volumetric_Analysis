@@ -1,0 +1,22 @@
+{
+  "volume_stats": [
+    {
+      "filename": "hippocampus_328.nii",
+      "dice": 0.8526829268292683,
+      "jaccard": 0.7431972789115646
+    }
+  ],
+  "overall": {
+    "mean_dice": 0.8526829268292683,
+    "mean_jaccard": 0.7431972789115646
+  },
+  "config": {
+    "name": "UNet",
+    "root_dir": "C:\\\\Users\\\\aryan\\\\OneDrive\\\\Desktop\\\\Hypocampal Volume Quantification of Alzheimers\\\\model\\\\data\\\\",
+    "n_epochs": 100,
+    "learning_rate": 0.0001,
+    "batch_size": 8,
+    "patch_size": 64,
+    "test_results_dir": "./test_results"
+  }
+}

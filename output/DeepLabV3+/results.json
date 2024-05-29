@@ -1,0 +1,22 @@
+{
+  "volume_stats": [
+    {
+      "filename": "hippocampus_328.nii",
+      "dice": 0.8135922330097087,
+      "jaccard": 0.6857610474631751
+    }
+  ],
+  "overall": {
+    "mean_dice": 0.8135922330097087,
+    "mean_jaccard": 0.6857610474631751
+  },
+  "config": {
+    "name": "DeepLabV3Plus",
+    "root_dir": "C:\\\\Users\\\\aryan\\\\OneDrive\\\\Desktop\\\\Hypocampal Volume Quantification of Alzheimers\\\\model\\\\data\\\\",
+    "n_epochs": 100,
+    "learning_rate": 0.0001,
+    "batch_size": 8,
+    "patch_size": 64,
+    "test_results_dir": "./test_results"
+  }
+}

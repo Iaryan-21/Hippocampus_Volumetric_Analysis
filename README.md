@@ -35,7 +35,7 @@ The UNET architecture allows for precise localization and efficient feature extr
 
 
 ### DEEPLABV3+ Architecture
-
+![DeepLAbV3+ Architecture](https://github.com/Iaryan-21/Hippocampus_Volumetric_Analysis/blob/main/output/deep_Lab_v3.png)
 ### Dataset
 
 The hippocampus training data was gather from the Medical Decathlon competition, found at

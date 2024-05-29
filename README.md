@@ -40,3 +40,6 @@ The hippocampus training data was gather from the Medical Decathlon competition,
 http://www.medicaldecathlon.com. This dataset is stored as a collection of 260 Neuroimaging
 Informatics Technology Initiative (NIfTI) files, with one file per image volume, and one file per corresponding segmentation mask. The original images are T2 MRI scans of the full brain. This dataset utilizes cropped volumes where the region around the hippocampus has been cut out.
 
+### Output
+
+![Output Sample](https://github.com/Iaryan-21/Hippocampus_Volumetric_Analysis/blob/main/val_epoch_77_batch_0.png)

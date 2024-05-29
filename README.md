@@ -103,7 +103,7 @@ Overall Statistics
   
   Configuration
 - **name**: "DeepLabV3Plus",
-- **root_dir**: "C:\\\\Users\\\\aryan\\\\OneDrive\\\\Desktop\\\\Hypocampal Volume Quantification of Alzheimers\\\\model\\\\data\\\\",
+- **root_dir**: `C:\\Users\\aryan\\OneDrive\\Desktop\\Hypocampal Volume Quantification of Alzheimers\\model\\data\\`
 - **n_epochs**: 100,
 - **learning_rate**: 0.0001,
 - **batch_size**: 8,

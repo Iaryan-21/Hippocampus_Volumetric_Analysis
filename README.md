@@ -1,1 +1,4 @@
 # HIPPOCAMPAL VOLUMETRIC QUANTIFICATION OF ALZHEIMER'S PROGRESSION
+
+## Segmentaion using the UNET and RecursiveUNet architecture
+

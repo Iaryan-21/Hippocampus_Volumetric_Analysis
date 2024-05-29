@@ -10,4 +10,4 @@ This algorithm is intended to help diagnose and track any progression of Alzheim
 UNET is an end to end AI system which features a Deep Neural Network algorithm that integrates into a clicinical-grade viewer and automatically measures hippocampal volumes of new patients as their studies are commited to clinical imaging archive.
 
 UNET Architecture:
-[UNET Architecture]
+[UNET Architecture](https://github.com/yourusername/yourrepository/unet_arch.png)

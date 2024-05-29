@@ -12,7 +12,7 @@ UNET is an end-to-end AI system which features a Deep Neural Network algorithm t
 UNET Architecture:
 ![UNET Architecture](https://github.com/Iaryan-21/Hippocampus_Volumetric_Analysis/blob/main/unet_arch.png)
 
-### Explanation of UNET
+### Architecture UNET
 UNET is a type of Convolutional Neural Network (CNN) primarily used for image segmentation. It was first introduced in 2015 for biomedical image segmentation. The architecture consists of a contracting path to capture context and a symmetric expanding path that enables precise localization.
 
 1. **Contracting Path (Encoder)**:

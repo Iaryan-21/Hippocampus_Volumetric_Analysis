@@ -67,7 +67,7 @@ Informatics Technology Initiative (NIfTI) files, with one file per image volume,
 ![Output Sample](https://github.com/Iaryan-21/Hippocampus_Volumetric_Analysis/blob/main/val_epoch_77_batch_0.png)
 
 **DEEPLABV3+** : 
-![Output Sample]()
+![Output Sample](https://github.com/Iaryan-21/Hippocampus_Volumetric_Analysis/blob/main/output/DeepLabV3%2B/train_epoch_58_batch_20.png)
 ### Results
 
 Here are the key results from the analysis:

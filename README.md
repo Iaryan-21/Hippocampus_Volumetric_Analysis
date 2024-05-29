@@ -102,11 +102,11 @@ Overall Statistics
 - **mean_jaccard**: 0.6857610474631751
   
   Configuration
-- **name**: "DeepLabV3Plus",
-- **root_dir**: `C:\\Users\\aryan\\OneDrive\\Desktop\\Hypocampal Volume Quantification of Alzheimers\\model\\data\\`
-- **n_epochs**: 100,
-- **learning_rate**: 0.0001,
-- **batch_size**: 8,
-- **patch_size**: 64,
-- **test_results_dir**: "./test_results"
+- **Model Name**: "DeepLabV3+",
+- **Root Directory**: `C:\\Users\\aryan\\OneDrive\\Desktop\\Hypocampal Volume Quantification of Alzheimers\\model\\data\\`
+- **Number of Epochs**: 100,
+- **Learning Rate**: 0.0001,
+- **Batch Size**: 8,
+- **Patch Size**: 64,
+- **Test Results Directory**: "./test_results"
 

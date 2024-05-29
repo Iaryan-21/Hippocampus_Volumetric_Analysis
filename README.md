@@ -36,6 +36,26 @@ The UNET architecture allows for precise localization and efficient feature extr
 
 ### DEEPLABV3+ Architecture
 ![DeepLAbV3+ Architecture](https://github.com/Iaryan-21/Hippocampus_Volumetric_Analysis/blob/main/output/deep_Lab_v3.png)
+
+DeepLabv3+ is a state-of-the-art semantic segmentation model that builds on the success of DeepLabv3 by adding a decoder module to refine the segmentation results, especially around object boundaries. It effectively captures multi-scale context and integrates low-level and high-level features.
+
+**Encoder (Backbone)**:
+
+The encoder is typically a pre-trained ResNet (e.g., ResNet-50, ResNet-101) that extracts features from the input image at multiple scales.
+Atrous (dilated) convolutions are used in the later stages of the backbone to increase the receptive field without reducing spatial resolution.
+**Atrous Spatial Pyramid Pooling (ASPP)**:
+
+ASPP captures multi-scale context by applying atrous convolutions with different dilation rates.
+It includes parallel atrous convolutions with different rates, a global average pooling branch, and a concatenation of these features followed by 1x1 convolution and batch normalization.
+**Decoder**:
+
+The decoder module integrates low-level features from earlier layers of the backbone with the output of the ASPP module.
+The low-level features are processed through 1x1 convolutions to reduce the number of channels.
+The decoder upsamples the ASPP output and concatenates it with the low-level features, followed by a few 3x3 convolutions and upsampling layers to restore the original resolution of the input image.
+
+**Output Layer**:
+A final 1x1 convolution is used to produce the segmentation map with the desired number of classes.
+
 ### Dataset
 
 The hippocampus training data was gather from the Medical Decathlon competition, found at

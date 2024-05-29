@@ -34,7 +34,7 @@ UNET is a type of Convolutional Neural Network (CNN) primarily used for image se
 The UNET architecture allows for precise localization and efficient feature extraction, making it highly effective for segmentation tasks, particularly in medical imaging where it can delineate structures such as the hippocampus for volumetric analysis.
 
 
-### DEEPLABV3+ Architecture
+### DEEPLABV3+ Architecture:
 ![DeepLAbV3+ Architecture](https://github.com/Iaryan-21/Hippocampus_Volumetric_Analysis/blob/main/output/deep_Lab_v3.png)
 
 DeepLabv3+ is a state-of-the-art semantic segmentation model that builds on the success of DeepLabv3 by adding a decoder module to refine the segmentation results, especially around object boundaries. It effectively captures multi-scale context and integrates low-level and high-level features.

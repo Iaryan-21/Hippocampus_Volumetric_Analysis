@@ -14,7 +14,7 @@ class Slicesdataset(Dataset):
         slc = self.slices[idx]
         sample = dict()
         sample["id"] = idx
-        # Ensure the image and seg tensors have a single channel
+    
         sample['image'] = torch.from_numpy(self.data[slc[0]]['image'][slc[1], :, :]).unsqueeze(0).to(self.device, dtype=torch.float)
         sample['seg'] = torch.from_numpy(self.data[slc[0]]['seg'][slc[1], :, :]).unsqueeze(0).to(self.device, dtype=torch.long)
 

@@ -37,8 +37,7 @@ class DeepLabV3PlusInferenceAgent:
             slices[slice_idx, :, :] = torch.argmax(pred, dim=0).numpy()
 
         return slices
-
-# # Example usage
+        
 # if __name__ == "__main__":
 #     # Example volume data (you should replace this with your actual volume data)
 #     volume = np.random.randint(0, 256, (34, 49, 29), dtype=np.uint8)

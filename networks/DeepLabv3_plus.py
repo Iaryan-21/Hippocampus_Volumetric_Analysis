@@ -39,7 +39,7 @@ class DeepLabV3Plus(nn.Module):
         super(DeepLabV3Plus, self).__init__()
         self.backbone = models.resnet101(pretrained=True)
         
-        # Modify the first convolutional layer to accept a different number of input channels
+        
         self.backbone.conv1 = nn.Conv2d(in_channels, 64, kernel_size=7, stride=2, padding=3, bias=False)
         
         self.aspp = ASPP(in_channels=2048, out_channels=256)
@@ -68,6 +68,6 @@ class DeepLabV3Plus(nn.Module):
         x = self.classifier(x)
         return x
 
-# Example usage
-model = DeepLabV3Plus(num_classes=3, in_channels=1)
-print(model)
+
+# model = DeepLabV3Plus(num_classes=3, in_channels=1)
+# print(model)

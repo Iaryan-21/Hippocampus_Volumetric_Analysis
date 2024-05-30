@@ -43,10 +43,9 @@ def Hippocampus_Data(root_dir, y_shape, z_shape):
         out.append({"image": image, "seg": label, "filename": f})
         print(f"Processed {len(out)} files, total {sum([x['image'].shape[1] for x in out])} slices")
     
-    # Convert to numpy array
+    
     data_array = np.array(out)
 
-    # Debugging: Visualize a few samples
     visualize_samples(data_array)
 
     return data_array
@@ -68,7 +67,6 @@ def visualize_samples(data_array, num_samples=3):
         
         plt.show()
 
-# # Example usage
 # root_dir = r'C:\\Users\\aryan\\OneDrive\\Desktop\\Hypocampal Volume Quantification of Alzheimers\\model\\data\\'
 # y_shape, z_shape = 64, 64
 # data = Hippocampus_Data(root_dir, y_shape, z_shape)

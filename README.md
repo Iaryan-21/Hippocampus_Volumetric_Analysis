@@ -87,8 +87,7 @@ Configuration:
 - **Batch Size**: 8
 - **Patch Size**: 64
 
-
-  ### Results DeepLabv3+
+### Results DeepLabv3+
 
 - **Filename**: "hippocampus_328.nii",
 - **Dice Coeffcicient**: 0.8135922330097087,

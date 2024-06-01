@@ -82,12 +82,11 @@ Overall statistics:
 Configuration:
 
 - **Model Name**: UNet
-- **Root Directory**: `C:\\Users\\aryan\\OneDrive\\Desktop\\Hypocampal Volume Quantification of Alzheimers\\model\\data\\`
 - **Number of Epochs**: 100
 - **Learning Rate**: 0.0001
 - **Batch Size**: 8
 - **Patch Size**: 64
-- **Test Results Directory**: `./test_results`
+
 
   ### Results DeepLabv3+
 
@@ -101,10 +100,9 @@ Overall Statistics:
   
 Configuration:
 - **Model Name**: "DeepLabV3+",
-- **Root Directory**: `C:\\Users\\aryan\\OneDrive\\Desktop\\Hypocampal Volume Quantification of Alzheimers\\model\\data\\`
 - **Number of Epochs**: 100,
 - **Learning Rate**: 0.0001,
 - **Batch Size**: 8,
 - **Patch Size**: 64,
-- **Test Results Directory**: "./test_results"
+
 

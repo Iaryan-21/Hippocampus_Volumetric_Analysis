@@ -39,19 +39,17 @@ class DeepLabV3PlusInferenceAgent:
         return slices
         
 # if __name__ == "__main__":
-#     # Example volume data (you should replace this with your actual volume data)
 #     volume = np.random.randint(0, 256, (34, 49, 29), dtype=np.uint8)
 
 #     # Replace 'path_to_saved_model.pth' with the actual path to your saved model file
 #     model_path = 'path_to_saved_model.pth'
 
-#     # Initialize the inference agent
+
 #     inference_agent = DeepLabV3PlusInferenceAgent(
 #         parameter_file_path=model_path,
 #         model=DeepLabV3Plus(num_classes=3, in_channels=1),
 #         device="cuda" if torch.cuda.is_available() else "cpu"
 #     )
 
-#     # Perform inference on the volume
 #     segmentation = inference_agent.single_volume_inference(volume)
 #     print(f'Segmentation shape: {segmentation.shape}')

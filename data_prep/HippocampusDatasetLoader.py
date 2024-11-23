@@ -26,19 +26,9 @@ def Hippocampus_Data(root_dir, y_shape, z_shape):
         image, _ = load(os.path.join(image_dir, f))
         label, _ = load(os.path.join(labels_dir, f))
 
-        # Debugging: Print the original shapes and unique values
-        print(f"Original Image Shape: {image.shape}, Original Label Shape: {label.shape}")
-        print(f"Original Label Unique Values: {np.unique(label)}")
-
-        image = image / 255.0  # Normalize image
-
-        # Reshape images and labels correctly
-        image = med_reshape(image, new_shape=(1, y_shape, z_shape))  # Ensure single channel
-        label = med_reshape_label(label, new_shape=(1, y_shape, z_shape)).astype(int)  # Ensure single channel
-
-        # Debugging: Print the reshaped shapes and unique values
-        print(f"Reshaped Image Shape: {image.shape}, Reshaped Label Shape: {label.shape}")
-        print(f"Reshaped Label Unique Values: {np.unique(label)}")
+        image = image / 255.0  
+        image = med_reshape(image, new_shape=(1, y_shape, z_shape)) 
+        label = med_reshape_label(label, new_shape=(1, y_shape, z_shape)).astype(int)  
 
         out.append({"image": image, "seg": label, "filename": f})
         print(f"Processed {len(out)} files, total {sum([x['image'].shape[1] for x in out])} slices")
